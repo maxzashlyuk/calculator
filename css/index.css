@@ -32,6 +32,11 @@ body {
   word-wrap: break-word;
 }
 
+.calculator__previous,
+.calculator__current {
+  max-width: 14rem;
+}
+
 .calculator__previous {
   font-size: .75rem;
   color: #fff9;
@@ -70,4 +75,12 @@ body {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+
+  &:hover {
+    opacity: .9;
+  }
+
+  &:active {
+    opacity: .7;
+  }
 }
