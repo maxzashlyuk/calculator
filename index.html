@@ -13,33 +13,34 @@
 <body>
   <div class="calculator">
     <div class="calculator__output">
-      <div class="calculator__previous">200000 +</div>
-      <div class="calculator__current">800000</div>
+      <div class="calculator__previous" data-previous-operand>200000 +</div>
+      <div class="calculator__current" data-current-operand>800000</div>
     </div>
     <div class="calculator__controls">
       <div class="calculator__numbers">
-        <button class="calculator__button" style="--span: 2;">ac</button>
-        <button class="calculator__button">del</button>
-        <button class="calculator__button">7</button>
-        <button class="calculator__button">8</button>
-        <button class="calculator__button">9</button>
-        <button class="calculator__button">4</button>
-        <button class="calculator__button">5</button>
-        <button class="calculator__button">6</button>
-        <button class="calculator__button">1</button>
-        <button class="calculator__button">2</button>
-        <button class="calculator__button">3</button>
-        <button class="calculator__button">0</button>
-        <button class="calculator__button" style="--span: 2;">.</button>
+        <button class="calculator__button" data-all-clear style="--span: 2;">ac</button>
+        <button class="calculator__button" data-delete>del</button>
+        <button class="calculator__button" data-number>7</button>
+        <button class="calculator__button" data-number>8</button>
+        <button class="calculator__button" data-number>9</button>
+        <button class="calculator__button" data-number>4</button>
+        <button class="calculator__button" data-number>5</button>
+        <button class="calculator__button" data-number>6</button>
+        <button class="calculator__button" data-number>1</button>
+        <button class="calculator__button" data-number>2</button>
+        <button class="calculator__button" data-number>3</button>
+        <button class="calculator__button" data-number>0</button>
+        <button class="calculator__button" data-number style="--span: 2;">.</button>
       </div>
       <div class="calculator__operators">
-        <button class="calculator__button">/</button>
-        <button class="calculator__button">*</button>
-        <button class="calculator__button">-</button>
-        <button class="calculator__button">+</button>
-        <button class="calculator__button">=</button>
+        <button class="calculator__button" data-operation>/</button>
+        <button class="calculator__button" data-operation>*</button>
+        <button class="calculator__button" data-operation>-</button>
+        <button class="calculator__button" data-operation>+</button>
+        <button class="calculator__button" data-equals>=</button>
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
