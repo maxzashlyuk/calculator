@@ -75,12 +75,12 @@ body {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+}
 
-  &:hover {
-    opacity: .9;
-  }
+.calculator__button:hover {
+  opacity: .9;
+}
 
-  &:active {
-    opacity: .7;
-  }
+.calculator__button:active {
+  opacity: .7;
 }
